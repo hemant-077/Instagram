@@ -1,0 +1,34 @@
+.friendCard_container{
+    background-color: white;
+    width: 470px;
+    height: 100px;
+    margin:16px 0 0;
+    /*padding:16px 0;*/
+    border-radius: 8px;
+    border: 1px solid rgb(219,219,219);
+    display: flex;
+    gap: 0.4rem;
+
+    /*min-height: 110px;*/
+}
+
+
+.friendCard_person{
+    padding-left: 0.2rem;
+    margin-top: 0.4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.friendCard_person:hover{
+    cursor: pointer;
+}
+
+.friendCard_text{
+    font-size: 0.85rem;
+    width: 75px;
+    overflow-x: hidden;
+    text-overflow: ellipsis;
+}
